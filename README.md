@@ -35,10 +35,21 @@ A custom implementation of a **dynamic array** using `ctypes`, similar to how Py
 
 ---
 
-## 📂 Folder Structure
+## 2. Singly Linked List – `MyLinkedList`
 
-```text
-python-dsa-basics/
-  ├── README.md
-  └── arrays/
-      └── dynamic_array.ipynb
+File: `linkedlist/linked_list.py`
+
+This file contains a custom implementation of a **singly linked list** with node insertion, deletion, traversal, and indexing.
+
+### Supported Operations
+
+- `insert_head(value)` – Insert element at the head
+- `append(value)` – Insert at the tail
+- `insert_after(value, new_value)` – Insert after a given value
+- `traverse()` – Print all elements
+- `delete_head()` – Remove the first element
+- `pop()` – Remove the last element
+- `remove(value)` – Remove a specific value
+- `search(value)` – Find index of a value
+- `__getitem__(pos)` – Indexing support like a list
+- `clear()` – Remove all elements
